@@ -13,3 +13,23 @@ then push to github
 git add .
 git commit -a
 git push
+
+create travis CI file
+add flake8 to requirements
+create .flake8 file within the project
+
+VERY USEFUL
+git config --global credential.helper cache
+Cache credentials
+
+
+USEFUL COMMAND FOR TESTING
+docker-compose run app sh -c "python manage.py test && flake8"
+
+CREATE NEW APP
+docker-compose run app sh -c "python manage.py startapp core"
+
+CANT HAVE BOTH TEST FILE AND FOLDER (ONLY ONE)
+
+AFTER EACH MODEL CHANGE run
+docker-compose run app sh -c "python manage.py makemigrations core"
