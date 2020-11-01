@@ -1,0 +1,2 @@
+Once Dockerfile is created, run in terminal
+docker build .
