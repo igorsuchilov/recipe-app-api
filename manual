@@ -37,3 +37,8 @@ docker-compose run app sh -c "python manage.py makemigrations core"
 
 when everything is ready
 docker-compose up (will start the server)
+
+when start can access the server on 127.0.0.1:8000/admin
+
+to create a superuser run:
+docker-compose run app sh -c "python manage.py createsuperuser"
