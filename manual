@@ -33,3 +33,7 @@ CANT HAVE BOTH TEST FILE AND FOLDER (ONLY ONE)
 
 AFTER EACH MODEL CHANGE run
 docker-compose run app sh -c "python manage.py makemigrations core"
+
+
+when everything is ready
+docker-compose up (will start the server)
